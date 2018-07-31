@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				447C454B211048EC00CBDC4B /* ZLScrollPageView DEMO */,
-				447C457521105BC900CBDC4B /* ZLScollPageView */,
+				447C457521105BC900CBDC4B /* ZLScrollPageView */,
 				447C454A211048EC00CBDC4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,14 +84,14 @@
 			path = "ZLScrollPageView DEMO";
 			sourceTree = "<group>";
 		};
-		447C457521105BC900CBDC4B /* ZLScollPageView */ = {
+		447C457521105BC900CBDC4B /* ZLScrollPageView */ = {
 			isa = PBXGroup;
 			children = (
 				447C457621105BC900CBDC4B /* other */,
 				447C457A21105BC900CBDC4B /* model */,
 				447C457D21105BC900CBDC4B /* view */,
 			);
-			path = ZLScollPageView;
+			path = ZLScrollPageView;
 			sourceTree = "<group>";
 		};
 		447C457621105BC900CBDC4B /* other */ = {
