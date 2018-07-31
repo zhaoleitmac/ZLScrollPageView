@@ -12,10 +12,10 @@
 		447C4554211048EC00CBDC4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447C4552211048EC00CBDC4B /* Main.storyboard */; };
 		447C4556211048EC00CBDC4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447C4555211048EC00CBDC4B /* Assets.xcassets */; };
 		447C455C211048EC00CBDC4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C455B211048EC00CBDC4B /* main.m */; };
-		447C45712110498C00CBDC4B /* ZLScollPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C45692110498C00CBDC4B /* ZLScollPageModel.m */; };
-		447C45722110498C00CBDC4B /* ZLScollPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C456B2110498C00CBDC4B /* ZLScollPageContentView.m */; };
-		447C45732110498C00CBDC4B /* ZLScollPageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C456C2110498C00CBDC4B /* ZLScollPageTitleView.m */; };
-		447C45742110498C00CBDC4B /* ZLScollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C456D2110498C00CBDC4B /* ZLScollPageView.m */; };
+		447C458421105BC900CBDC4B /* ZLScollPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C457C21105BC900CBDC4B /* ZLScollPageModel.m */; };
+		447C458521105BC900CBDC4B /* ZLScollPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C457E21105BC900CBDC4B /* ZLScollPageContentView.m */; };
+		447C458621105BC900CBDC4B /* ZLScollPageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C457F21105BC900CBDC4B /* ZLScollPageTitleView.m */; };
+		447C458721105BC900CBDC4B /* ZLScollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C458021105BC900CBDC4B /* ZLScollPageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,17 +28,17 @@
 		447C4555211048EC00CBDC4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		447C455A211048EC00CBDC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		447C455B211048EC00CBDC4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		447C45642110498C00CBDC4B /* SPEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPEnums.h; sourceTree = "<group>"; };
-		447C45652110498C00CBDC4B /* SPConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPConstant.h; sourceTree = "<group>"; };
-		447C45662110498C00CBDC4B /* SPLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLog.h; sourceTree = "<group>"; };
-		447C45682110498C00CBDC4B /* ZLScollPageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScollPageModel.h; sourceTree = "<group>"; };
-		447C45692110498C00CBDC4B /* ZLScollPageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScollPageModel.m; sourceTree = "<group>"; };
-		447C456B2110498C00CBDC4B /* ZLScollPageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScollPageContentView.m; sourceTree = "<group>"; };
-		447C456C2110498C00CBDC4B /* ZLScollPageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScollPageTitleView.m; sourceTree = "<group>"; };
-		447C456D2110498C00CBDC4B /* ZLScollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScollPageView.m; sourceTree = "<group>"; };
-		447C456E2110498C00CBDC4B /* ZLScollPageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScollPageContentView.h; sourceTree = "<group>"; };
-		447C456F2110498C00CBDC4B /* ZLScollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScollPageView.h; sourceTree = "<group>"; };
-		447C45702110498C00CBDC4B /* ZLScollPageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScollPageTitleView.h; sourceTree = "<group>"; };
+		447C457721105BC900CBDC4B /* SPEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPEnums.h; sourceTree = "<group>"; };
+		447C457821105BC900CBDC4B /* SPConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPConstant.h; sourceTree = "<group>"; };
+		447C457921105BC900CBDC4B /* SPLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLog.h; sourceTree = "<group>"; };
+		447C457B21105BC900CBDC4B /* ZLScollPageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScollPageModel.h; sourceTree = "<group>"; };
+		447C457C21105BC900CBDC4B /* ZLScollPageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScollPageModel.m; sourceTree = "<group>"; };
+		447C457E21105BC900CBDC4B /* ZLScollPageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScollPageContentView.m; sourceTree = "<group>"; };
+		447C457F21105BC900CBDC4B /* ZLScollPageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScollPageTitleView.m; sourceTree = "<group>"; };
+		447C458021105BC900CBDC4B /* ZLScollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScollPageView.m; sourceTree = "<group>"; };
+		447C458121105BC900CBDC4B /* ZLScollPageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScollPageContentView.h; sourceTree = "<group>"; };
+		447C458221105BC900CBDC4B /* ZLScollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScollPageView.h; sourceTree = "<group>"; };
+		447C458321105BC900CBDC4B /* ZLScollPageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScollPageTitleView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,8 @@
 		447C4540211048EC00CBDC4B = {
 			isa = PBXGroup;
 			children = (
-				447C454B211048EC00CBDC4B /* ZLScrollPageView */,
+				447C454B211048EC00CBDC4B /* ZLScrollPageView DEMO */,
+				447C457521105BC900CBDC4B /* ZLScollPageView */,
 				447C454A211048EC00CBDC4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +69,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		447C454B211048EC00CBDC4B /* ZLScrollPageView */ = {
+		447C454B211048EC00CBDC4B /* ZLScrollPageView DEMO */ = {
 			isa = PBXGroup;
 			children = (
 				447C454C211048EC00CBDC4B /* AppDelegate.h */,
@@ -79,49 +80,48 @@
 				447C4555211048EC00CBDC4B /* Assets.xcassets */,
 				447C455A211048EC00CBDC4B /* Info.plist */,
 				447C455B211048EC00CBDC4B /* main.m */,
-				447C45622110498C00CBDC4B /* ZLScollPageView */,
 			);
-			path = ZLScrollPageView;
+			path = "ZLScrollPageView DEMO";
 			sourceTree = "<group>";
 		};
-		447C45622110498C00CBDC4B /* ZLScollPageView */ = {
+		447C457521105BC900CBDC4B /* ZLScollPageView */ = {
 			isa = PBXGroup;
 			children = (
-				447C45632110498C00CBDC4B /* other */,
-				447C45672110498C00CBDC4B /* model */,
-				447C456A2110498C00CBDC4B /* view */,
+				447C457621105BC900CBDC4B /* other */,
+				447C457A21105BC900CBDC4B /* model */,
+				447C457D21105BC900CBDC4B /* view */,
 			);
 			path = ZLScollPageView;
 			sourceTree = "<group>";
 		};
-		447C45632110498C00CBDC4B /* other */ = {
+		447C457621105BC900CBDC4B /* other */ = {
 			isa = PBXGroup;
 			children = (
-				447C45642110498C00CBDC4B /* SPEnums.h */,
-				447C45652110498C00CBDC4B /* SPConstant.h */,
-				447C45662110498C00CBDC4B /* SPLog.h */,
+				447C457721105BC900CBDC4B /* SPEnums.h */,
+				447C457821105BC900CBDC4B /* SPConstant.h */,
+				447C457921105BC900CBDC4B /* SPLog.h */,
 			);
 			path = other;
 			sourceTree = "<group>";
 		};
-		447C45672110498C00CBDC4B /* model */ = {
+		447C457A21105BC900CBDC4B /* model */ = {
 			isa = PBXGroup;
 			children = (
-				447C45682110498C00CBDC4B /* ZLScollPageModel.h */,
-				447C45692110498C00CBDC4B /* ZLScollPageModel.m */,
+				447C457B21105BC900CBDC4B /* ZLScollPageModel.h */,
+				447C457C21105BC900CBDC4B /* ZLScollPageModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
 		};
-		447C456A2110498C00CBDC4B /* view */ = {
+		447C457D21105BC900CBDC4B /* view */ = {
 			isa = PBXGroup;
 			children = (
-				447C456F2110498C00CBDC4B /* ZLScollPageView.h */,
-				447C456D2110498C00CBDC4B /* ZLScollPageView.m */,
-				447C45702110498C00CBDC4B /* ZLScollPageTitleView.h */,
-				447C456C2110498C00CBDC4B /* ZLScollPageTitleView.m */,
-				447C456E2110498C00CBDC4B /* ZLScollPageContentView.h */,
-				447C456B2110498C00CBDC4B /* ZLScollPageContentView.m */,
+				447C457E21105BC900CBDC4B /* ZLScollPageContentView.m */,
+				447C457F21105BC900CBDC4B /* ZLScollPageTitleView.m */,
+				447C458021105BC900CBDC4B /* ZLScollPageView.m */,
+				447C458121105BC900CBDC4B /* ZLScollPageContentView.h */,
+				447C458221105BC900CBDC4B /* ZLScollPageView.h */,
+				447C458321105BC900CBDC4B /* ZLScollPageTitleView.h */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -196,11 +196,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				447C4551211048EC00CBDC4B /* ViewController.m in Sources */,
-				447C45742110498C00CBDC4B /* ZLScollPageView.m in Sources */,
-				447C45722110498C00CBDC4B /* ZLScollPageContentView.m in Sources */,
+				447C458721105BC900CBDC4B /* ZLScollPageView.m in Sources */,
+				447C458521105BC900CBDC4B /* ZLScollPageContentView.m in Sources */,
 				447C455C211048EC00CBDC4B /* main.m in Sources */,
-				447C45712110498C00CBDC4B /* ZLScollPageModel.m in Sources */,
-				447C45732110498C00CBDC4B /* ZLScollPageTitleView.m in Sources */,
+				447C458421105BC900CBDC4B /* ZLScollPageModel.m in Sources */,
+				447C458621105BC900CBDC4B /* ZLScollPageTitleView.m in Sources */,
 				447C454E211048EC00CBDC4B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,7 +336,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KXMJT8TG4T;
-				INFOPLIST_FILE = ZLScrollPageView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ZLScrollPageView DEMO/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -354,7 +354,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KXMJT8TG4T;
-				INFOPLIST_FILE = ZLScrollPageView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ZLScrollPageView DEMO/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
