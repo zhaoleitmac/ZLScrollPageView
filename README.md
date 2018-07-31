@@ -8,7 +8,7 @@
 ## Installation
 #### Podfile
 ```
-pod 'SDWebImage', '~> 4.0'
+pod 'ZLScrollPageView', '1.0.0'
 ```
 
 ## How To Use
