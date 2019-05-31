@@ -28,6 +28,7 @@
 
 - (void)setupView {
     ZLScollPageView *pageView = [ZLScollPageView createWithDelegate:self];
+//    pageView.hideTitleWhenSingle = YES;
     CGFloat x = 0;
     CGFloat y = 0;
     CGFloat width = SP_SCREEN_WIDTH;
@@ -80,7 +81,7 @@
     model7.viewController = vc7;
     model7.title = @"紫色";
     
-    self.pageView.models = @[model1, model2, model3, model4, model5, model6, model7];
+    self.pageView.models = @[];//model1, model2, model3, model4, model5, model6, model7];
 }
 
 #pragma mark - ZLScollPageViewDelegate

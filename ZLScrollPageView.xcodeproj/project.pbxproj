@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441D371622A0CB7C007D91FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441D371522A0CB7C007D91FA /* LaunchScreen.storyboard */; };
 		447C454E211048EC00CBDC4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C454D211048EC00CBDC4B /* AppDelegate.m */; };
 		447C4551211048EC00CBDC4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C4550211048EC00CBDC4B /* ViewController.m */; };
 		447C4554211048EC00CBDC4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447C4552211048EC00CBDC4B /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		441D371522A0CB7C007D91FA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		447C4549211048EC00CBDC4B /* ZLScrollPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLScrollPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		447C454C211048EC00CBDC4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		447C454D211048EC00CBDC4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				447C454F211048EC00CBDC4B /* ViewController.h */,
 				447C4550211048EC00CBDC4B /* ViewController.m */,
 				447C4552211048EC00CBDC4B /* Main.storyboard */,
+				441D371522A0CB7C007D91FA /* LaunchScreen.storyboard */,
 				447C4555211048EC00CBDC4B /* Assets.xcassets */,
 				447C455A211048EC00CBDC4B /* Info.plist */,
 				447C455B211048EC00CBDC4B /* main.m */,
@@ -116,12 +119,12 @@
 		447C457D21105BC900CBDC4B /* view */ = {
 			isa = PBXGroup;
 			children = (
-				447C457E21105BC900CBDC4B /* ZLScollPageContentView.m */,
-				447C457F21105BC900CBDC4B /* ZLScollPageTitleView.m */,
-				447C458021105BC900CBDC4B /* ZLScollPageView.m */,
-				447C458121105BC900CBDC4B /* ZLScollPageContentView.h */,
 				447C458221105BC900CBDC4B /* ZLScollPageView.h */,
+				447C458021105BC900CBDC4B /* ZLScollPageView.m */,
 				447C458321105BC900CBDC4B /* ZLScollPageTitleView.h */,
+				447C457F21105BC900CBDC4B /* ZLScollPageTitleView.m */,
+				447C458121105BC900CBDC4B /* ZLScollPageContentView.h */,
+				447C457E21105BC900CBDC4B /* ZLScollPageContentView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441D371622A0CB7C007D91FA /* LaunchScreen.storyboard in Resources */,
 				447C4556211048EC00CBDC4B /* Assets.xcassets in Resources */,
 				447C4554211048EC00CBDC4B /* Main.storyboard in Resources */,
 			);
@@ -333,7 +337,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KXMJT8TG4T;
 				INFOPLIST_FILE = "$(SRCROOT)/ZLScrollPageView DEMO/Info.plist";
@@ -352,7 +355,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KXMJT8TG4T;
 				INFOPLIST_FILE = "$(SRCROOT)/ZLScrollPageView DEMO/Info.plist";

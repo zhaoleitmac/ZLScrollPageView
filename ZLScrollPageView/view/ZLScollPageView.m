@@ -109,6 +109,9 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     CGFloat titleHeight = self.titleView.height;
+    if (_hideTitleWhenSingle && self.models.count == 1) {
+        titleHeight = 0;
+    }
     self.titleView.frame = CGRectMake(0, 0, SP_SCREEN_WIDTH, titleHeight);
     self.contentView.frame = CGRectMake(0, titleHeight, SP_SCREEN_WIDTH, self.frame.size.height - titleHeight);
 }

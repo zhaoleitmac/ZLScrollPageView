@@ -17,24 +17,25 @@
 @interface ZLScollPageView : UIView
 
 
-- (instancetype)initWithDelegate:(nullable __kindof UIViewController <ZLScollPageViewDelegate> *)delegate;
+- (instancetype _Nonnull)initWithDelegate:(nullable __kindof UIViewController <ZLScollPageViewDelegate> *)delegate;
 
-+ (instancetype)createWithDelegate:(nullable __kindof UIViewController <ZLScollPageViewDelegate> *)delegate;
++ (instancetype _Nonnull)createWithDelegate:(nullable __kindof UIViewController <ZLScollPageViewDelegate> *)delegate;
 
-- (instancetype)init NS_UNAVAILABLE;
+- (instancetype _Nonnull)init NS_UNAVAILABLE;
 
-- (instancetype)initWithFrame:(CGRect)frame NS_UNAVAILABLE;
+- (instancetype _Nonnull)initWithFrame:(CGRect)frame NS_UNAVAILABLE;
 
 ///delegate
-@property (nonatomic, weak, readonly) __kindof UIViewController <ZLScollPageViewDelegate> *delegate;
+@property (nonatomic, weak, readonly) __kindof UIViewController <ZLScollPageViewDelegate> * _Nullable delegate;
 
 ///data
-@property (nonatomic, strong) NSArray <ZLScollPageModel *> *models;
+@property (nonatomic, strong) NSArray <ZLScollPageModel *> * _Nonnull models;
 
-//@property (nonatomic, assign) BOOL showTitleWhenSingle;
+///hide title when single subViewController
+@property (nonatomic, assign) BOOL hideTitleWhenSingle;
 
 ///top view for show title
-@property (nonatomic, weak, readonly) ZLScollPageTitleView *titleView;
+@property (nonatomic, weak, readonly) ZLScollPageTitleView * _Nullable titleView;
 
 ///CurrentPageIndex
 @property (nonatomic, assign, readonly) NSInteger currentPage;
