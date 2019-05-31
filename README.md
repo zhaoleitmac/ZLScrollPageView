@@ -8,7 +8,7 @@
 ## Installation
 #### Podfile
 ```
-pod 'ZLScrollPageView', '1.0.0'
+pod 'ZLScrollPageView', '1.0.1'
 ```
 
 ## How To Use
